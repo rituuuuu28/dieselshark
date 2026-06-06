@@ -38,12 +38,12 @@ border-bottom:1px solid rgba(255,255,255,.08);
 }
 
 .logo img{
-height:55px;
+height:80px;
 }
 
 .nav-links{
 display:flex;
-gap:40px;
+gap:60px;
 list-style:none;
 }
 
@@ -75,7 +75,7 @@ background:url('../images/hero-bg.jpg') center center/cover no-repeat;
 position:relative;
 display:flex;
 align-items:center;
-padding:0 8%;
+padding:0 12%;
 }
 
 .overlay{
@@ -91,7 +91,8 @@ max-width:700px;
 }
 
 .hero h1{
-font-size:92px;
+font-size:72px;
+max-width:700px;
 line-height:0.95;
 text-transform:uppercase;
 margin-bottom:25px;
@@ -102,6 +103,10 @@ font-size:30px;
 color:#d0d0d0;
 margin-bottom:35px;
 line-height:1.4;
+}
+
+.hero h1 span{
+color:#ff7a1a;
 }
 
 .btn{
