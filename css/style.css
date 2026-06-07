@@ -91,6 +91,7 @@ background:rgba(0,0,0,.65);
 position:relative;
 z-index:2;
 max-width:700px;
+padding-top:60px;
 }
 
 .hero h1{
@@ -107,6 +108,7 @@ font-size:20px;
 max-width:750px;
 line-height:1.5;
 color:#cfcfcf;
+margin-bottom:20px;
 }
 
 .hero h1 span{
@@ -114,18 +116,22 @@ color:#ff7a1a;
 }
 
 .btn{
-display:inline-block;
-background:#ff7a1a;
-color:#fff;
-padding:18px 40px;
-font-size:22px;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+padding:15px 32px;
+font-size:18px;
 font-weight:700;
+color:#ff7a1a;
+border:2px solid #ff7a1a;
+background:transparent;
 border-radius:8px;
 transition:.3s;
 }
 
 .btn:hover{
-transform:translateY(-3px);
+background:#ff7a1a;
+color:#fff;
 }
 
 section{
