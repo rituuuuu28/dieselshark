@@ -38,7 +38,7 @@ border-bottom:1px solid rgba(255,255,255,.08);
 }
 
 .logo img{
-height:40px;
+height:45px;
 width:auto;
 }
 
@@ -137,7 +137,7 @@ margin-bottom:70px;
 .section-title span{
 color:#ff7a1a;
 font-size:50px;
-letter-spacing:3px;
+letter-spacing:0px;
 }
 
 .section-title h2{
