@@ -263,7 +263,7 @@ font-weight:600;
 }
 
 .contact-details{
-margin-top:40px;
+margin-top:25px;
 display:flex;
 flex-direction:column;
 gap:10px;
@@ -273,10 +273,12 @@ gap:10px;
 display:flex;
 align-items:center;
 justify-content:center;
-gap:0px;
+gap:15px;
 font-size:26px;
 font-weight:700;
 letter-spacing:0.5px;
+margin:0;          /* IMPORTANT */
+line-height:1.2;   /* IMPORTANT */
 }
 
 .contact-details i{
