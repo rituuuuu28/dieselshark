@@ -3,7 +3,7 @@ const navLinks = document.querySelector('.nav-links');
 
 hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
-});
+
 const tabs = document.querySelectorAll(".tab-btn");
 const galleries = document.querySelectorAll(".gallery");
 
@@ -56,7 +56,7 @@ lightbox.onclick=function(e){
 if(e.target===lightbox){
 
 lightbox.style.display="none";
-
+});
 }
 
 }
