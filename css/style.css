@@ -281,7 +281,7 @@ section{
 
     background:#141414;
 
-    border:1px solid rgba(255,122,26,.20);
+    /*border:1px solid rgba(255,122,26,.20);*/
 
     border-radius:18px;
 
@@ -300,8 +300,6 @@ section{
 }
 
 .portfolio-cta:hover{
-
-    border-color:#ff7a1a;
 
     transform:translateY(-4px);
 
