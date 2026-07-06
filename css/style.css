@@ -226,17 +226,25 @@ section{
 
 .vehicle-title{
 
-    text-align:center;
+    display:inline-block;
 
-    font-size:38px;
+    font-size:24px;
 
-    color:#ff7a1a;
+    color:#fff;
 
-    margin:70px 0 35px;
+    font-weight:700;
+
+    margin:50px 0 30px;
+
+    padding-bottom:8px;
+
+    border-bottom:3px solid #ff7a1a;
 
     text-transform:uppercase;
 
-    letter-spacing:2px;
+    letter-spacing:1px;
+
+}
 
 }
 
