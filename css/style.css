@@ -299,14 +299,6 @@ section{
 
 }
 
-.portfolio-cta:hover{
-
-    transform:translateY(-4px);
-
-    box-shadow:0 15px 35px rgba(255,122,26,.12);
-
-}
-
 .portfolio-cta h2{
 
     font-size:34px;
@@ -368,7 +360,7 @@ section{
 .process-grid{
     display:grid;
     grid-template-columns:repeat(4,1fr);
-    gap:25px;
+    gap:15px;
 }
 
 .step{
