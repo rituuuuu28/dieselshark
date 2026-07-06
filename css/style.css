@@ -287,76 +287,58 @@ section{
 }
 
 /* =========================
-   CTA
+/* Portfolio CTA 
 ========================= */
 
-.build-banner{
 
-    margin-top:90px;
 
-    background:url("../images/hero-bg.png") center center/cover;
+.portfolio-cta{
 
-    position:relative;
+    max-width:800px;
 
-    border-radius:22px;
+    margin:70px auto 20px;
 
-    overflow:hidden;
+    padding:45px;
 
-}
+    background:#141414;
 
-.build-overlay{
+    border-radius:18px;
 
-    position:absolute;
-
-    inset:0;
-
-    background:rgba(0,0,0,.75);
-
-}
-
-.build-content{
-
-    position:relative;
-
-    z-index:2;
-
-    padding:90px 40px;
-
-    max-width:900px;
-
-    margin:auto;
+    border:1px solid rgba(255,122,26,.25);
 
     text-align:center;
 
-}
-
-.build-content span{
-
-    color:#ff7a1a;
-
-    font-weight:700;
-
-    letter-spacing:4px;
+    transition:.3s;
 
 }
 
-.build-content h2{
+.portfolio-cta:hover{
 
-    font-size:56px;
+    border-color:#ff7a1a;
 
-    margin:20px 0;
+    transform:translateY(-4px);
 
 }
 
-.build-content p{
+.portfolio-cta h2{
 
-    color:#d2d2d2;
+    font-size:42px;
 
-    font-size:21px;
+    margin-bottom:15px;
 
-    line-height:1.8;
+    color:#fff;
 
-    margin-bottom:40px;
+}
+
+.portfolio-cta p{
+
+    color:#bdbdbd;
+
+    font-size:19px;
+
+    line-height:1.7;
+
+    margin-bottom:30px;
 
 }
 
@@ -366,17 +348,17 @@ section{
 
     align-items:center;
 
-    gap:14px;
+    gap:12px;
 
     background:#ff7a1a;
 
     color:#fff;
 
-    padding:18px 40px;
+    padding:16px 32px;
 
-    border-radius:10px;
+    border-radius:8px;
 
-    font-size:20px;
+    font-size:18px;
 
     font-weight:700;
 
@@ -388,7 +370,13 @@ section{
 
     background:#ff9447;
 
-    transform:translateY(-5px);
+    transform:translateY(-3px);
+
+}
+
+.build-btn i{
+
+    font-size:22px;
 
 }
 
