@@ -294,11 +294,9 @@ section{
 
 .portfolio-cta{
 
-    max-width:850px;
-
-    margin:80px auto;
-
-    padding:50px;
+    max-width:700px;
+    margin:60px auto;
+    padding:35px 30px;
 
     background:#141414;
 
@@ -332,9 +330,8 @@ section{
 
 .portfolio-cta h2{
 
-    font-size:44px;
-
-    margin-bottom:15px;
+    font-size:34px;
+    margin-bottom:10px;
 
     color:#fff;
 
@@ -342,15 +339,11 @@ section{
 
 .portfolio-cta p{
 
+    font-size:17px;
+    line-height:1.6;
+    margin-bottom:25px;
     max-width:650px;
-
     color:#bdbdbd;
-
-    font-size:20px;
-
-    line-height:1.8;
-
-    margin-bottom:35px;
 
 }
 
@@ -368,11 +361,11 @@ section{
 
     color:#fff;
 
-    padding:16px 36px;
+    padding:14px 28px;
 
     border-radius:10px;
 
-    font-size:20px;
+    font-size:17px;
 
     font-weight:700;
 
